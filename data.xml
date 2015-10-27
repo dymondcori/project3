@@ -306,8 +306,8 @@
         <Ranking>45</Ranking>
         <Deaths>2,577</Deaths>
         <Deaths per 100,000>45</Deaths per 100,000>
-    </State>
-    <State id="Wyoming">
+      </State>
+      <State id="Wisconsin">
         <Population>568,158</Population>
         <Ranking>39</Ranking>
         <Deaths>506</Deaths>
