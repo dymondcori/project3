@@ -1,17 +1,13 @@
 <html>
   <head>
-    <title>Chart</title>
-    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
-
+    <title>Map</title>
   </head>
 
   <body>
-    <div id="doublebar" style="width:100%; height:400px;"></div>
-    <div id="bar" style="width:100%; height:400px;"></div>
-
+    <!--<div id="container" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div> -->
 
     <div id="map"></div>
-        <div id="table-div">
+    <div id="table-div">
             <table id="data">
               <tr>
                   <td>1</td>
@@ -273,48 +269,16 @@
           </div>
 
 
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+          <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+          <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+          <script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
+          <script src="http://code.highcharts.com/mapdata/countries/us/custom/us-small.js"></script>
+          <script src="js/map2.js"></script>
 
 
 
 
-
-
-    <table id="tableinfo" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th>State</th>
-                <th>Population</th>
-                <th>DUI Law Strictness Rank</th>
-                <th>Criminal Rank</th>
-                <th>Prevention Rate</th>
-                <th>DUI Related Deaths (2013)</th>
-                <th>Rate of Deaths per 100,000</th>
-            </tr>
-        </thead>
-
-        <tfoot>
-            <tr>
-              <th>State</th>
-              <th>Population</th>
-              <th>DUI Law Strictness Rank</th>
-              <th>Criminal Rank</th>
-              <th>Prevention Rate</th>
-              <th>DUI Related Deaths (2013)</th>
-              <th>Rate of Deaths per 100,000</th>
-            </tr>
-        </tfoot>
-    </table>
-
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> <!--jquery always comes first -->
-    <script src="http://code.highcharts.com/highcharts.js"></script> <!--add http to front-->
-    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
-    <script src="http://code.highcharts.com/maps/modules/data.js"></script>
-    <script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
-    <script src="http://code.highcharts.com/mapdata/countries/us/custom/us-small.js"></script>
-    <script src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
-
-
-    <script src="highchart.js"></script>
-  </body>
-
-</html>
+        </body>
+    <html>

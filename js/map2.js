@@ -45,10 +45,10 @@ $(function () {
 
 
     // Initiate the chart
-    $('#container').highcharts('Map', {
+    $('#map').highcharts('Map', {
 
         title: {
-            text: 'US unemployment rate 2015'
+            text: 'State Strictness Ranking for DUI Laws'
         },
 
         subtitle: {
@@ -72,7 +72,7 @@ $(function () {
             mapData: mapData,
             data: data,
             joinBy: 'ucName',
-            name: 'Unemployment rate per 2015',
+            name: 'Strictness Ranking',
             states: {
                 hover: {
                     color: '#BADA55'

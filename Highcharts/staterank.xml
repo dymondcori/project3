@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+
+        <State name="Arizona">
+            <Population>6482505</Population>
+            <Ranking>1</Ranking>
+            <CriminalRank>1</CriminalRank>
+            <PreventionRank>2</PreventionRank>
+            <Deaths>2912</Deaths>
+            <DeathRate>45</DeathRate>
+         </State>
+
+        <State name="Alaska">
+          <Population>722718</Population>
+          <Ranking>2</Ranking>
+          <CriminalRank>2</CriminalRank>
+          <PreventionRank>18</PreventionRank>
+          <Deaths>222</Deaths>
+          <DeathRate>31</DeathRate>
+       </State>
+
+        <State name="Connecticut">
+          <Population>3580709</Population>
+          <Ranking>3</Ranking>
+          <CriminalRank>5</CriminalRank>
+          <PreventionRank>8</PreventionRank>
+          <Deaths>1039</Deaths>
+          <DeathRate>29</DeathRate>
+       </State>
+
+        <State name="West Virginia">
+            <Population>1855364</Population>
+            <Ranking>4</Ranking>
+            <CriminalRank>5</CriminalRank>
+            <PreventionRank>10</PreventionRank>
+            <Deaths>1092</Deaths>
+            <DeathRate>59</DeathRate>
+      </State>
+
+        <State name="Kansas">
+            <Population>2871238</Population>
+            <Ranking>5</Ranking>
+            <CriminalRank>3</CriminalRank>
+            <PreventionRank>29</PreventionRank>
+            <Deaths>1214</Deaths>
+            <DeathRate>42</DeathRate>
+     </State>
+
+        <State name="Nebraska">
+            <Population>1842641</Population>
+            <Ranking>6</Ranking>
+            <CriminalRank>3</CriminalRank>
+            <PreventionRank>32</PreventionRank>
+            <Deaths>682</Deaths>
+            <DeathRate>37</DeathRate>
+          </State>
+
+        <State name="Utah">
+          <Population>2817222</Population>
+          <Ranking>7</Ranking>
+          <CriminalRank>7</CriminalRank>
+          <PreventionRank>13</PreventionRank>
+          <Deaths>469</Deaths>
+          <DeathRate>17</DeathRate>
+      </State>
+
+        <State name="Virginia">
+          <Population>8096604</Population>
+          <Ranking>8</Ranking>
+          <CriminalRank>9</CriminalRank>
+          <PreventionRank>13</PreventionRank>
+          <Deaths>2613</Deaths>
+          <DeathRate>32</DeathRate>
+        </State>
+
+        <State name="Delaware">
+            <Population>907135</Population>
+            <Ranking>9</Ranking>
+            <CriminalRank>9</CriminalRank>
+            <PreventionRank>21</PreventionRank>
+            <Deaths>427</Deaths>
+            <DeathRate>47</DeathRate>
+      </State>
+    <State name="Georgia">
+        <Population>9815210</Population>
+        <Ranking>10</Ranking>
+        <CriminalRank>18</CriminalRank>
+        <PreventionRank>4</PreventionRank>
+        <Deaths>3699</Deaths>
+        <DeathRate>38</DeathRate>
+    </State>
+
+      <State name="Washington">
+        <Population>6830038</Population>
+        <Ranking>11</Ranking>
+        <CriminalRank>13</CriminalRank>
+        <PreventionRank>13</PreventionRank>
+        <Deaths>1921</Deaths>
+        <DeathRate>28</DeathRate>
+      </State>
+
+      <State name="Tennessee">
+        <Population>6403353</Population>
+        <Ranking>12</Ranking>
+        <CriminalRank>13</CriminalRank>
+        <PreventionRank>17</PreventionRank>
+        <Deaths>3423</Deaths>
+        <DeathRate>53</DeathRate>
+      </State>
+
+      <State name="Oklahoma">
+        <Population>3791508</Population>
+        <Ranking>13</Ranking>
+        <CriminalRank>12</CriminalRank>
+        <PreventionRank>21</PreventionRank>
+        <Deaths>2205</Deaths>
+        <DeathRate>58</DeathRate> </State>
+
+      <State name="Louisiana">
+        <Population>4574836</Population>
+        <Ranking>14</Ranking>
+        <CriminalRank>13</CriminalRank>
+        <PreventionRank>19</PreventionRank>
+        <Deaths>3046</Deaths>
+        <DeathRate>67</DeathRate>
+       </State>
+
+      <State name="Iowa">
+        <Population>3062309</Population>
+        <Ranking>15</Ranking>
+        <CriminalRank>7</CriminalRank>
+        <PreventionRank>32</PreventionRank>
+        <Deaths>968</Deaths>
+        <DeathRate>32</DeathRate>
+      </State>
+
+      <State name="Oregon">
+        <Population>3871859</Population>
+        <Ranking>16</Ranking>
+        <CriminalRank>16</CriminalRank>
+        <PreventionRank>21</PreventionRank>
+        <Deaths>1232</Deaths>
+        <DeathRate>32</DeathRate>
+     </State>
+
+      <State name="Colorado">
+        <Population>5116769</Population>
+        <Ranking>17</Ranking>
+        <CriminalRank>20</CriminalRank>
+        <PreventionRank>4</PreventionRank>
+        <Deaths>1702</Deaths>
+        <DeathRate>33</DeathRate>
+     </State>
+
+      <State name="New Hampshire">
+        <Population>1318194</Population>
+        <Ranking>18</Ranking>
+        <CriminalRank>20</CriminalRank>
+        <PreventionRank>9</PreventionRank>
+        <Deaths>399</Deaths>
+        <DeathRate>30</DeathRate>
+     </State>
+      <State name="Texas">
+        <Population>25674681</Population>
+        <Ranking>18</Ranking>
+        <CriminalRank>16</CriminalRank>
+        <PreventionRank>29</PreventionRank>
+        <Deaths>13138</Deaths>
+        <DeathRate>51</DeathRate>
+    </State>
+
+      <State name="South Carolina">
+        <Population>4679230</Population>
+        <Ranking>20</Ranking>
+        <CriminalRank>19</CriminalRank>
+        <PreventionRank>21</PreventionRank>
+        <Deaths>3870</Deaths>
+        <DeathRate>83</DeathRate> </State>
+
+    <State name="Florida">
+        <Population>19057542</Population>
+        <Ranking>21</Ranking>
+        <CriminalRank>29</CriminalRank>
+        <PreventionRank>4</PreventionRank>
+        <Deaths>8476</Deaths>
+        <DeathRate>44</DeathRate> </State>
+
+      <State name="Nevada">
+        <Population>2723322</Population>
+        <Ranking>22</Ranking>
+        <CriminalRank>20</CriminalRank>
+        <PreventionRank>21</PreventionRank>
+        <Deaths>1025</Deaths>
+        <DeathRate>38</DeathRate>
+     </State>
+
+      <State name="Alabama">
+        <Population>4802740</Population>
+        <Ranking>23</Ranking>
+        <CriminalRank>36</CriminalRank>
+        <PreventionRank>3</PreventionRank>
+        <Deaths>3190</Deaths>
+        <DeathRate>66</DeathRate>
+      </State>
+
+    <State name="Arkansas">
+        <Population>2937979</Population>
+        <Ranking>23</Ranking>
+        <CriminalRank>43</CriminalRank>
+        <PreventionRank>1</PreventionRank>
+        <Deaths>1769</Deaths>
+        <DeathRate>60</DeathRate>
+    </State>
+
+    <State name="Massachusetts">
+        <Population>6587536</Population>
+        <Ranking>23</Ranking>
+        <CriminalRank>9</CriminalRank>
+        <PreventionRank>44</PreventionRank>
+        <Deaths>1370</Deaths>
+        <DeathRate>21</DeathRate>
+    </State>
+    <State name="Illinois">
+        <Population>12869257</Population>
+        <Ranking>26</Ranking>
+        <CriminalRank>31</CriminalRank>
+        <PreventionRank>10</PreventionRank>
+        <Deaths>3866</Deaths>
+        <DeathRate>30</DeathRate> </State>
+
+    <State name="Hawaii">
+        <Population>1374810</Population>
+        <Ranking>27</Ranking>
+        <CriminalRank>36</CriminalRank>
+        <PreventionRank>10</PreventionRank>
+        <Deaths>484</Deaths>
+        <DeathRate>35</DeathRate>
+    </State>
+
+    <State name="North Carolina">
+        <Population>9656401</Population>
+        <Ranking>28</Ranking>
+        <CriminalRank>26</CriminalRank>
+        <PreventionRank>26</PreventionRank>
+        <Deaths>4102</Deaths>
+        <DeathRate>42</DeathRate>
+    </State>
+    <State name="Missouri">
+        <Population>6010688</Population>
+        <Ranking>29</Ranking>
+        <CriminalRank>39</CriminalRank>
+        <PreventionRank>13</PreventionRank>
+        <Deaths>3314</Deaths>
+        <DeathRate>55</DeathRate> </State>
+   <State name="New York">
+        <Population>19465197</Population>
+        <Ranking>30</Ranking>
+        <CriminalRank>24</CriminalRank>
+        <PreventionRank>35</PreventionRank>
+        <Deaths>3752</Deaths>
+        <DeathRate>19</DeathRate>
+    </State>
+
+    <State name="California">
+        <Population>37691912</Population>
+        <Ranking>31</Ranking>
+        <CriminalRank>23</CriminalRank>
+        <PreventionRank>38</PreventionRank>
+        <Deaths>10327</Deaths>
+        <DeathRate>27</DeathRate>
+    </State>
+
+    <State name="Maine">
+        <Population>1328188</Population>
+        <Ranking>32</Ranking>
+        <CriminalRank>43</CriminalRank>
+        <PreventionRank>19</PreventionRank>
+        <Deaths>491</Deaths>
+        <DeathRate>37</DeathRate>
+    </State>
+    <State name="New Mexico">
+        <Population>2082224</Population>
+        <Ranking>33</Ranking>
+        <CriminalRank>49</CriminalRank>
+        <PreventionRank>4</PreventionRank>
+        <Deaths>1254</Deaths>
+        <DeathRate>60</DeathRate>
+    </State>
+
+    <State name="Indiana">
+        <Population>6516922</Population>
+        <Ranking>34</Ranking>
+        <CriminalRank>31</CriminalRank>
+        <PreventionRank>36</PreventionRank>
+        <Deaths>2210</Deaths>
+        <DeathRate>34</DeathRate>
+    </State>
+    <State name="Rhode Island">
+        <Population>1051302</Population>
+        <Ranking>34</Ranking>
+        <CriminalRank>24</CriminalRank>
+        <PreventionRank>43</PreventionRank>
+        <Deaths>308</Deaths>
+        <DeathRate>29</DeathRate>
+    </State>
+
+    <State name="Minnesota">
+        <Population>5344861</Population>
+        <Ranking>36</Ranking>
+        <CriminalRank>26</CriminalRank>
+        <PreventionRank>40</PreventionRank>
+        <Deaths>1442</Deaths>
+        <DeathRate>27</DeathRate>
+    </State>
+
+    <State name="Michigan">
+        <Population>9876187</Population>
+        <Ranking>37</Ranking>
+        <CriminalRank>31</CriminalRank>
+        <PreventionRank>38</PreventionRank>
+        <Deaths>2912</Deaths>
+        <DeathRate>29</DeathRate>
+    </State>
+    <State name="Mississippi">
+        <Population>2978512</Population>
+        <Ranking>38</Ranking>
+        <CriminalRank>43</CriminalRank>
+        <PreventionRank>29</PreventionRank>
+        <Deaths>2560</Deaths>
+        <DeathRate>86</DeathRate>
+    </State>
+    <State name="Wyoming">
+        <Population>568158</Population>
+        <Ranking>39</Ranking>
+        <CriminalRank>46</CriminalRank>
+        <PreventionRank>27</PreventionRank>
+        <Deaths>506</Deaths>
+        <DeathRate>89</DeathRate>
+    </State>
+    <State name="Idaho">
+        <Population>1584985</Population>
+        <Ranking>40</Ranking>
+        <CriminalRank>26</CriminalRank>
+        <PreventionRank>46</PreventionRank>
+        <Deaths>712</Deaths>
+        <DeathRate>45</DeathRate>
+    </State>
+    <State name="New Jersey">
+        <Population>8821155</Population>
+        <Ranking>41</Ranking>
+        <CriminalRank>42</CriminalRank>
+        <PreventionRank>37</PreventionRank>
+        <Deaths>1816</Deaths>
+        <DeathRate>21</DeathRate>
+    </State>
+    <State name="Ohio">
+        <Population>11544951</Population>
+        <Ranking>41</Ranking>
+        <CriminalRank>36</CriminalRank>
+        <PreventionRank>40</PreventionRank>
+        <Deaths>3637</Deaths>
+        <DeathRate>32</DeathRate>
+    </State>
+    <State name="Vermont">
+        <Population>626431</Population>
+        <Ranking>43</Ranking>
+        <CriminalRank>31</CriminalRank>
+        <PreventionRank>44</PreventionRank>
+        <Deaths>212</Deaths>
+        <DeathRate>34</DeathRate>
+    </State>
+    <State name="Kentucky">
+        <Population>4369356</Population>
+        <Ranking>44</Ranking>
+        <CriminalRank>39</CriminalRank>
+        <PreventionRank>40</PreventionRank>
+        <Deaths>2041</Deaths>
+        <DeathRate>47</DeathRate>
+    </State>
+    <State name="Wisconsin">
+        <Population>5711767</Population>
+        <Ranking>45</Ranking>
+        <CriminalRank>50</CriminalRank>
+        <PreventionRank>27</PreventionRank>
+        <Deaths>2577</Deaths>
+        <DeathRate>45</DeathRate>
+    </State>
+    <State name="Montana">
+        <Population>998199</Population>
+        <Ranking>46</Ranking>
+        <CriminalRank>29</CriminalRank>
+        <PreventionRank>49</PreventionRank>
+        <Deaths>932</Deaths>
+        <DeathRate>93</DeathRate>
+    </State>
+    <State name="Maryland">
+        <Population>5828289</Population>
+        <Ranking>47</Ranking>
+        <CriminalRank>50</CriminalRank>
+        <PreventionRank>32</PreventionRank>
+        <Deaths>1716</Deaths>
+        <DeathRate>29</DeathRate>
+    </State>
+    <State name="North Dakota">
+        <Population>683932</Population>
+        <Ranking>48</Ranking>
+        <CriminalRank>39</CriminalRank>
+        <PreventionRank>48</PreventionRank>
+        <Deaths>502</Deaths>
+        <DeathRate>73</DeathRate>
+    </State>
+    <State name="Pennsylvania">
+        <Population>12742886</Population>
+        <Ranking>49</Ranking>
+        <CriminalRank>48</CriminalRank>
+        <PreventionRank>47</PreventionRank>
+        <Deaths>4663</Deaths>
+        <DeathRate>37</DeathRate>
+    </State>
+    <State name="District of Columbia">
+        <Population>617996</Population>
+        <Ranking>50</Ranking>
+        <CriminalRank>31</CriminalRank>
+        <PreventionRank>50</PreventionRank>
+        <Deaths>124</Deaths>
+        <DeathRate>20</DeathRate>
+    </State>
+    <State name="South Dakota">
+        <Population>824082</Population>
+        <Ranking>51</Ranking>
+        <CriminalRank>46</CriminalRank>
+        <PreventionRank>51</PreventionRank>
+        <Deaths>537</Deaths>
+        <DeathRate>65</DeathRate>
+    </State>
+</States>

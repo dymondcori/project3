@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <States>
 
-      <State name="Alabama">
+    <State name="Alabama">
         <Population>4802740</Population>
         <Rank>23</Rank>
         <CriminalRank>36</CriminalRank>
@@ -10,7 +10,7 @@
         <DeathRate>66</DeathRate>
     </State>
 
-    <State name="Alaska">
+  <State name="Alaska">
         <Population>722718</Population>
         <Rank>2</Rank>
         <CriminalRank>2</CriminalRank>
@@ -74,7 +74,7 @@
         <Deaths>124</Deaths>
         <DeathRate>20</DeathRate>
     </State>
-    <State name="Florida">
+    <State name="Flornamea">
         <Population>19057542</Population>
         <Rank>21</Rank>
         <CriminalRank>29</CriminalRank>
@@ -98,7 +98,7 @@
         <Deaths>484</Deaths>
         <DeathRate>35</DeathRate>
       </State>
-      <State name="Idaho">
+      <State name="nameaho">
         <Population>1584985</Population>
         <Rank>40</Rank>
         <CriminalRank>26</CriminalRank>
@@ -210,8 +210,9 @@
         <PreventionRank>13</PreventionRank>
         <Deaths>3314</Deaths>
         <DeathRate>55</DeathRate>
-      </State>
-      <State name="Montana">
+    </25>
+  </State>
+  <State name="Montana">
         <Population>998199</Population>
         <Rank>46</Rank>
         <CriminalRank>29</CriminalRank>
@@ -254,7 +255,7 @@
       <State name="New Mexico">
         <Population>2082224</Population>
         <Rank>33</Rank>
-        <CriminalRank>49</CriminalRank>
+        <Criminal>49</CriminalRank>
         <PreventionRank>4</PreventionRank>
         <Deaths>1254</Deaths>
         <DeathRate>60</DeathRate>
@@ -410,8 +411,6 @@
         <PreventionRank>27</PreventionRank>
         <Deaths>506</Deaths>
         <DeathRate>89</DeathRate>
-    </State>
+    </50>
 
 </States>
-
-</xml>

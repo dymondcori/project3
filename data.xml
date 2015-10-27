@@ -1,316 +1,254 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<States>
+<xml>
+   <States>
+     <State name="Alabama">
+       <Population>4802740</Population>
+       <Rank>23</Rank>
+       <CriminalRank>36</CriminalRank>
+       <PreventionRank>3</PreventionRank>
+       <Deaths>3190</Deaths>
+       <DeathRate>66</DeathRate>
+   </State>
 
-    <State id="Alabama">
-        <Population>4,802,740</Population>
-        <Ranking>23</Ranking>
-        <Deaths>3,190</Deaths>
-        <Deaths per 100,000>66</Deaths per 100,000>
-    </State>
+   <State name="Alaska">
+       <Population>722718</Population>
+       <Rank>2</Rank>
+       <CriminalRank>2</CriminalRank>
+       <PreventionRank>18</PreventionRank>
+       <Deaths>222</Deaths>
+       <DeathRate>31</DeathRate>
+   </State>
+   <State name="Arizona">
+       <Population>6482505</Population>
+       <Rank>1</Rank>
+       <CriminalRank>1</CriminalRank>
+       <PreventionRank>2</PreventionRank>
+       <Deaths>2912</Deaths>
+       <DeathRate>45</DeathRate>
+   </State>
+   <State name="Arkansas">
+       <Population>2937979</Population>
+       <Rank>23</Rank>
+       <CriminalRank>43</CriminalRank>
+       <PreventionRank>1</PreventionRank>
+       <Deaths>1769</Deaths>
+       <DeathRate>60</DeathRate>
+   </State>
+   <State name="California">
+       <Population>37691912</Population>
+       <Rank>31</Rank>
+       <CriminalRank>23</CriminalRank>
+       <PreventionRank>38</PreventionRank>
+       <Deaths>10327</Deaths>
+       <DeathRate>27</DeathRate>
+   </State>
+   <State name="Colorado">
+       <Population>5116769</Population>
+       <Rank>17</Rank>
+       <CriminalRank>20</CriminalRank>
+       <PreventionRank>4</PreventionRank>
+       <Deaths>1702</Deaths>
+       <DeathRate>33</DeathRate>
+   </State>
+   <State name="Connecticut">
+       <Population>3580709</Population>
+       <Rank>3</Rank>
+       <CriminalRank>5</CriminalRank>
+       <PreventionRank>8</PreventionRank>
+       <Deaths>1039</Deaths>
+       <DeathRate>29</DeathRate>
+   </State>
+   <State name="Delaware">
+       <Population>907135</Population>
+       <Rank>9</Rank>
+       <CriminalRank>9</CriminalRank>
+       <PreventionRank>21</PreventionRank>
+       <Deaths>427</Deaths>
+       <DeathRate>47</DeathRate>
+   </State>
+   <State name="District of Columbia">
+       <Population>617996</Population>
+       <Rank>50</Rank>
+       <CriminalRank>31</CriminalRank>
+       <PreventionRank>50</PreventionRank>
+       <Deaths>124</Deaths>
+       <DeathRate>20</DeathRate>
+   </State>
+   <State name="Florida">
+       <Population>19057542</Population>
+       <Rank>21</Rank>
+       <CriminalRank>29</CriminalRank>
+       <PreventionRank>4</PreventionRank>
+       <Deaths>8476</Deaths>
+       <DeathRate>44</DeathRate>
+   </State>
+   <State name="Georgia">
+       <Population>9815210</Population>
+       <Rank>10</Rank>
+       <CriminalRank>18</CriminalRank>
+       <PreventionRank>4</PreventionRank>
+       <Deaths>3699</Deaths>
+       <DeathRate>38</DeathRate>
+     </State>
+     <State name="Hawaii">
+       <Population>1374810</Population>
+       <Rank>27</Rank>
+       <CriminalRank>36</CriminalRank>
+       <PreventionRank>10</PreventionRank>
+       <Deaths>484</Deaths>
+       <DeathRate>35</DeathRate>
+     </State>
+     <State name="Idaho">
+       <Population>1584985</Population>
+       <Rank>40</Rank>
+       <CriminalRank>26</CriminalRank>
+       <PreventionRank>46</PreventionRank>
+       <Deaths>712</Deaths>
+       <DeathRate>45</DeathRate>
+     </State>
 
-    <State id="Alaska">
-        <Population>722,718</Population>
-        <Ranking>2</Ranking>
-        <Deaths>222</Deaths>
-        <Deaths per 100,000>31</Deaths per 100,000>
-    </State>
-
-    <State id="Arizona">
-        <Population>6,482,505</Population>
-        <Ranking>1</Ranking>
-        <Deaths>2,912</Deaths>
-        <Deaths per 100,000>45</Deaths per 100,000>
-    </State>
-    <State id="Arkansas">
-        <Population>2,937,979</Population>
-        <Ranking>23</Ranking>
-        <Deaths>1,769</Deaths>
-        <Deaths per 100,000>60</Deaths per 100,000>
-    </State>
-
-    <State id="California">
-        <Population>37,691,912</Population>
-        <Ranking>31</Ranking>
-        <Deaths>10,327</Deaths>
-        <Deaths per 100,000>27</Deaths per 100,000>
-    </State>
-
-    <State id="Colorado">
-        <Population>5,116,769</Population>
-        <Ranking>17</Ranking>
-        <Deaths>1,702</Deaths>
-        <Deaths per 100,000>33</Deaths per 100,000>
-    </State>
-    <State id="Connecticut">
-        <Population>3,580,709</Population>
-        <Ranking>3</Ranking>
-        <Deaths>1,039</Deaths>
-        <Deaths per 100,000>29</Deaths per 100,000>
-    </State>
-    <State>Delaware
-        <Population>907,135</Population>
-        <Ranking>9</Ranking>
-        <Deaths>427</Deaths>
-        <Deaths per 100,000>47</Deaths per 100,000>
-    </State>
-    <State id="District of Columbia">
-        <Population>617,996</Population>
-        <Ranking>50</Ranking>
-        <Deaths>124</Deaths>
-        <Deaths per 100,000>20</Deaths per 100,000>
-    </State>
-
-    <State id="Florida">
-        <Population>19,057,542</Population>
-        <Ranking>21</Ranking>
-        <Deaths>8,476</Deaths>
-        <Deaths per 100,000>44</Deaths per 100,000>
-    </State>
-    <State id="Georgia">
-        <Population>9,815,210</Population>
-        <Ranking>10</Ranking>
-        <Deaths>3,699</Deaths>
-        <Deaths per 100,000>38</Deaths per 100,000>
-    </State>
-    <State id="Hawaii">
-        <Population>1,374,810</Population>
-        <Ranking>27</Ranking>
-        <Deaths>484</Deaths>
-        <Deaths per 100,000>35</Deaths per 100,000>
-    </State>
-    <State id="Idaho">
-        <Population>1,584,985</Population>
-        <Ranking>40</Ranking>
-        <Deaths>712</Deaths>
-        <Deaths per 100,000>45</Deaths per 100,000>
-    </State>
-
-    <State id="Illinois">
-        <Population>12,869,257</Population>
-        <Ranking>26</Ranking>
-        <Deaths>3,866</Deaths>
-        <Deaths per 100,000>30</Deaths per 100,000>
-    </State>
-    <State id="Indiana">
-        <Population>6,516,922</Population>
-        <Ranking>34</Ranking>
-        <Deaths>2,210</Deaths>
-        <Deaths per 100,000>34</Deaths per 100,000>
-    </State>
-    <State id="Iowa">
-        <Population>3,062,309</Population>
-        <Ranking>15</Ranking>
-        <Deaths>968</Deaths>
-        <Deaths per 100,000>32</Deaths per 100,000>
-    </State>
-    <State id="Kansas">
-        <Population>2,871,238</Population>
-        <Ranking>5</Ranking>
-        <Deaths>1,214</Deaths>
-        <Deaths per 100,000>42</Deaths per 100,000>
-    </State>
-    <State id="Kentucky">
-        <Population>4,369,356</Population>
-        <Ranking>44</Ranking>
-        <Deaths>2,041</Deaths>
-        <Deaths per 100,000>47</Deaths per 100,000>
-    </State>
-    <State id="Louisiana">
-        <Population>4,574,836</Population>
-        <Ranking>14</Ranking>
-        <Deaths>3,046</Deaths>
-        <Deaths per 100,000>67</Deaths per 100,000>
-    </State>
-    <State id="Maine">
-        <Population>1,328,188</Population>
-        <Ranking>32</Ranking>
-        <Deaths>491</Deaths>
-        <Deaths per 100,000>37</Deaths per 100,000>
-    </State>
-    <State id="Maryland">
-        <Population>5,828,289</Population>
-        <Ranking>47</Ranking>
-        <Deaths>1,716</Deaths>
-        <Deaths per 100,000>29</Deaths per 100,000>
-    </State>
-    <State id="Massachusetts">
-        <Population>6,587,536</Population>
-        <Ranking>23</Ranking>
-        <Deaths>1,370</Deaths>
-        <Deaths per 100,000>21</Deaths per 100,000>
-    </State>
-    <State id="Michigan">
-        <Population>9,876,187</Population>
-        <Ranking>37</Ranking>
-        <Deaths>2,912</Deaths>
-        <Deaths per 100,000>29</Deaths per 100,000>
-    </State>
-    <State id="Minnesota">
-        <Population>5,344,861</Population>
-        <Ranking>36</Ranking>
-        <Deaths>1,442</Deaths>
-        <Deaths per 100,000>27</Deaths per 100,000>
-    </State>
-    <State id="Mississippi">
-        <Population>2,978,512</Population>
-        <Ranking>38</Ranking>
-        <Deaths>2,560</Deaths>
-        <Deaths per 100,000>86</Deaths per 100,000>
-    </State>
-    <State id="Missouri">
-        <Population>6,010,688</Population>
-        <Ranking>29</Ranking>
-        <Deaths>3,314</Deaths>
-        <Deaths per 100,000>55</Deaths per 100,000>
-    </State>
-    <State id="Montana">
-        <Population>998,199</Population>
-        <Ranking>46</Ranking>
-        <Deaths>932</Deaths>
-        <Deaths per 100,000>93</Deaths per 100,000>
-    </State>
-    <State id="Nebraska">
-        <Population>1,842,641</Population>
-        <Ranking>6</Ranking>
-        <Deaths>682</Deaths>
-        <Deaths per 100,000>37</Deaths per 100,000>
-    </State>
-    <State id="Nevada">
-        <Population>2,723,322</Population>
-        <Ranking>22</Ranking>
-        <Deaths>1,025</Deaths>
-        <Deaths per 100,000>38</Deaths per 100,000>
-    </State>
-    <State id="New Hampshire">
-        <Population>1,318,194</Population>
-        <Ranking>18</Ranking>
-        <Deaths>399</Deaths>
-        <Deaths per 100,000>30</Deaths per 100,000>
-    </State>
-    <State id="New Jersey">
-        <Population>8,821,155</Population>
-        <Ranking>41</Ranking>
-        <Deaths>1,816</Deaths>
-        <Deaths per 100,000>21</Deaths per 100,000>
-    </State>
-    <State id="New Mexico">
-        <Population>2,082,224</Population>
-        <Ranking>33</Ranking>
-        <Deaths>1,254</Deaths>
-        <Deaths per 100,000>60</Deaths per 100,000>
-    </State>
-    <State id="New York">
-        <Population>19,465,197</Population>
-        <Ranking>30</Ranking>
-        <Deaths>3,752</Deaths>
-        <Deaths per 100,000>19</Deaths per 100,000>
-    </State>
-    <State id="North Carolina">
-        <Population>9,656,401</Population>
-        <Ranking>28</Ranking>
-        <Deaths>4,102</Deaths>
-        <Deaths per 100,000>42</Deaths per 100,000>
-    </State>
-    <State id="North Dakota">
-        <Population>683,932</Population>
-        <Ranking>48</Ranking>
-        <Deaths>502</Deaths>
-        <Deaths per 100,000>73</Deaths per 100,000>
-    </State>
-    <State id="Ohio">
-        <Population>11,544,951</Population>
-        <Ranking>41</Ranking>
-        <Deaths>3,637</Deaths>
-        <Deaths per 100,000>32</Deaths per 100,000>
-    </State>
-    <State id="Oklahoma">
-        <Population>3,791,508</Population>
-        <Ranking>13</Ranking>
-        <Deaths>2,205</Deaths>
-        <Deaths per 100,000>58</Deaths per 100,000>
-    </State>
-    <State id="Oregon">
-        <Population>3,871,859</Population>
-        <Ranking>16</Ranking>
-        <Deaths>1,232</Deaths>
-        <Deaths per 100,000>32</Deaths per 100,000>
-    </State>
-    <State id="Pennsylvania">
-        <Population>12,742,886</Population>
-        <Ranking>49</Ranking>
-        <Deaths>4,663</Deaths>
-        <Deaths per 100,000>37</Deaths per 100,000>
-    </State>
-    <State id="Rhode Island">
-        <Population>1,051,302</Population>
-        <Ranking>34</Ranking>
-        <Deaths>308</Deaths>
-        <Deaths per 100,000>29</Deaths per 100,000>
-    </State>
-    <State id="South Carolina">
-        <Population>4,679,230</Population>
-        <Ranking>20</Ranking>
-        <Deaths>3,870</Deaths>
-        <Deaths per 100,000>83</Deaths per 100,000>
-    </State>
-    <State id="South Dakota">
-        <Population>824,082</Population>
-        <Ranking>51</Ranking>
-        <Deaths>537</Deaths>
-        <Deaths per 100,000>65</Deaths per 100,000>
-    </State>
-    <State id="Tennessee">
-        <Population>6,403,353</Population>
-        <Ranking>12</Ranking>
-        <Deaths>3,423</Deaths>
-        <Deaths per 100,000>53</Deaths per 100,000>
-    </State>
-    <State id="Texas">
-        <Population>25,674,681</Population>
-        <Ranking>18</Ranking>
-        <Deaths>13,138</Deaths>
-        <Deaths per 100,000>51</Deaths per 100,000>
-    </State>
-    <State id="Utah">
-        <Population>2,817,222</Population>
-        <Ranking>7</Ranking>
-        <Deaths>469</Deaths>
-        <Deaths per 100,000>17</Deaths per 100,000>
-    </State>
-    <State id="Vermont">
-        <Population>626,431</Population>
-        <Ranking>43</Ranking>
-        <Deaths>212</Deaths>
-        <Deaths per 100,000>34</Deaths per 100,000>
-    </State>
-    <State id="Virginia">
-        <Population>8,096,604</Population>
-        <Ranking>8</Ranking>
-        <Deaths>2,613</Deaths>
-        <Deaths per 100,000>32</Deaths per 100,000>
-    </State>
-    <State id="Washington">
-        <Population>6,830,038</Population>
-        <Ranking>11</Ranking>
-        <Deaths>1,921</Deaths>
-        <Deaths per 100,000>28</Deaths per 100,000>
-    </State>
-    <State id="West Virginia">
-        <Population>1,855,364</Population>
-        <Ranking>4</Ranking>
-        <Deaths>1,092</Deaths>
-        <Deaths per 100,000>59</Deaths per 100,000>
-    </State>
-    <State id="Wisconsin">
-        <Population>5,711,767</Population>
-        <Ranking>45</Ranking>
-        <Deaths>2,577</Deaths>
-        <Deaths per 100,000>45</Deaths per 100,000>
-      </State>
-      <State id="Wisconsin">
-        <Population>568,158</Population>
-        <Ranking>39</Ranking>
-        <Deaths>506</Deaths>
-        <Deaths per 100,000>89</Deaths per 100,000>
-    </State>
-</States>
+     <State name="Illinois">
+       <Population>12869257</Population>
+       <Rank>26</Rank>
+       <CriminalRank>31</CriminalRank>
+       <PreventionRank>10</PreventionRank>
+       <Deaths>3866</Deaths>
+       <DeathRate>30</DeathRate>
+     </State>
+     <State name="Indiana">
+       <Population>6516922</Population>
+       <Rank>34</Rank>
+       <CriminalRank>31</CriminalRank>
+       <PreventionRank>36</PreventionRank>
+       <Deaths>2210</Deaths>
+       <DeathRate>34</DeathRate>
+     </State>
+     <State name="Iowa">
+       <Population>3062309</Population>
+       <Rank>15</Rank>
+       <CriminalRank>7</CriminalRank>
+       <PreventionRank>32</PreventionRank>
+       <Deaths>968</Deaths>
+       <DeathRate>32</DeathRate>
+     </State>
+     <State name="Kansas">
+       <Population>2871238</Population>
+       <Rank>5</Rank>
+       <CriminalRank>3</CriminalRank>
+       <PreventionRank>29</PreventionRank>
+       <Deaths>1214</Deaths>
+       <DeathRate>42</DeathRate>
+     </State>
+     <State name="Kentucky">
+       <Population>4369356</Population>
+       <Rank>44</Rank>
+       <CriminalRank>39</CriminalRank>
+       <PreventionRank>40</PreventionRank>
+       <Deaths>2041</Deaths>
+       <DeathRate>47</DeathRate>
+     </State>
+     <State name="Louisiana">
+       <Population>4574836</Population>
+       <Rank>14</Rank>
+       <CriminalRank>13</CriminalRank>
+       <PreventionRank>19</PreventionRank>
+       <Deaths>3046</Deaths>
+       <DeathRate>67</DeathRate>
+     </State>
+     <State name="Maine">
+       <Population>1328188</Population>
+       <Rank>32</Rank>
+       <CriminalRank>43</CriminalRank>
+       <PreventionRank>19</PreventionRank>
+       <Deaths>491</Deaths>
+       <DeathRate>37</DeathRate>
+     </State>
+     <State name="Maryland">
+       <Population>5828289</Population>
+       <Rank>47</Rank>
+       <CriminalRank>50</CriminalRank>
+       <PreventionRank>32</PreventionRank>
+       <Deaths>1716</Deaths>
+       <DeathRate>29</DeathRate>
+     </State>
+     <State name="Massachusetts">
+       <Population>6587536</Population>
+       <Rank>23</Rank>
+       <CriminalRank>9</CriminalRank>
+       <PreventionRank>44</PreventionRank>
+       <Deaths>1370</Deaths>
+       <DeathRate>21</DeathRate>
+     </State>
+     <State name="Michigan">
+       <Population>9876187</Population>
+       <Rank>37</Rank>
+       <CriminalRank>31</CriminalRank>
+       <PreventionRank>38</PreventionRank>
+       <Deaths>2912</Deaths>
+       <DeathRate>29</DeathRate>
+     </State>
+     <State name="Minnesota">
+       <Population>5344861</Population>
+       <Rank>36</Rank>
+       <CriminalRank>26</CriminalRank>
+       <PreventionRank>40</PreventionRank>
+       <Deaths>1442</Deaths>
+       <DeathRate>27</DeathRate>
+     </State>
+     <State name="Mississippi">
+       <Population>2978512</Population>
+       <Rank>38</Rank>
+       <CriminalRank>43</CriminalRank>
+       <PreventionRank>29</PreventionRank>
+       <Deaths>2560</Deaths>
+       <DeathRate>86</DeathRate>
+     </State>
+     <State name="Missouri">
+       <Population>6010688</Population>
+       <Rank>29</Rank>
+       <CriminalRank>39</CriminalRank>
+       <PreventionRank>13</PreventionRank>
+       <Deaths>3314</Deaths>
+       <DeathRate>55</DeathRate>
+     </State>
+     <State name="Montana">
+       <Population>998199</Population>
+       <Rank>46</Rank>
+       <CriminalRank>29</CriminalRank>
+       <PreventionRank>49</PreventionRank>
+       <Deaths>932</Deaths>
+       <DeathRate>93</DeathRate>
+     </State>
+     <State name="Nebraska">
+       <Population>1842641</Population>
+       <Rank>6</Rank>
+       <CriminalRank>3</CriminalRank>
+       <PreventionRank>32</PreventionRank>
+       <Deaths>682</Deaths>
+       <DeathRate>37</DeathRate>
+     </State>
+     <State name="Nevada">
+       <Population>2723322</Population>
+       <Rank>22</Rank>
+       <CriminalRank>20</CriminalRank>
+       <PreventionRank>21</PreventionRank>
+       <Deaths>1025</Deaths>
+       <DeathRate>38</DeathRate>
+     </State>
+     <State name="New Hampshire">
+       <Population>1318194</Population>
+       <Rank>18</Rank>
+       <CriminalRank>20</CriminalRank>
+       <PreventionRank>9</PreventionRank>
+       <Deaths>399</Deaths>
+       <DeathRate>30</DeathRate>
+     </State>
+     <State name="New Jersey">
+       <Population>8821155</Population>
+       <Rank>41</Rank>
+       <CriminalRank>42</CriminalRank>
+       <PreventionRank>37</PreventionRank>
+       <Deaths>1816</Deaths>
+       <DeathRate>21</DeathRate>
+     </State>
+  </States>
+</xml>
