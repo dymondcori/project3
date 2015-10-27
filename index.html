@@ -1,0 +1,273 @@
+<html>
+  <head>
+    <title>Drunk Driving</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <head>
+
+  <body>
+    <div id="topblue">
+    </div>
+    <div class="container">
+        <div class="top">
+              <div class= "col-md-5">
+                  <img id="logo" src="images/logo.png" alt="logo">
+                  Centers for Disease Control and Prevention
+              </div>
+              <div class= "col-md-4">
+              </div>
+              <div class= "col-md-3">
+                <form>
+                    <input type="text" placeholder="SEARCH" required>
+                    <input type="button" value="Search">
+                </form>
+              </div>
+        </div>
+
+        <div class="col-md-10"> </div>
+        <div class="col-md-2">
+            <div id= "indexbox">
+              <p> CDC A-Z INDEX <p>
+            </div>
+        </div>
+
+        <div class= "col-md-12 topbar">
+                <h2> Injury Prevention and Control: Motor Vehicle Safety </h2>
+        </div>
+
+        <div class= "col-md-2 sidebar">
+              <div class="box">
+                          <div class="sidetop"> <a href ="#">Motor Vehicle Safety</a></div>
+                          <div class="sidenext"> <a href ="#">State Data and Information</a> </div>
+                          <div class="sidenext"> <a href ="#">Cost Data and Prevention Policies</a></div>
+                          <div class="sidenext"> <a href ="#">Child Passenger Safety</a></div>
+                          <div class="sidenext"> <a href ="#">Seat Belts</a></div>
+                          <div class="sidenext"> <a href ="#">Teen Drivers</a></div>
+                          <div class="sidenext"> <a href ="#">Older Adult Drivers</a></div>
+                          <div class="sidenext"> <a href ="#">Impaired Driving</a></div>
+                          <div class="sidenext"> <a href ="#">Distracted Driving</a></div>
+                          <div class="sidenext"> <a href ="#">Pedestrian Safety</a></div>
+                          <div class="sidenext"> <a href ="#">Tribal Road Safety</a></div>
+                          <div class="sidenext"> <a href ="#">Motorcycle Safety</a></div>
+                          <div class="sidenext"> <a href ="#">Bicycle Safety</a></div>
+                          <div class="sidenext"> <a href ="#">Global Road Safety</a></div>
+                      </div>
+
+                  </div>
+
+        <div class= "col-md-10">
+              <h3> Drunk Driving in the United States </h3>
+              <div id="bar" style="width:100%; height:400px;"></div>
+
+              <div id="usmap" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
+
+
+        </div>
+    </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <!--script for Barchart -->
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+
+        <!-- script for map -->
+        <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+        <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+        <script src="http://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+
+        <script> //BARCHART
+
+        // function parseData(xml){
+        //  buildBar();
+        //  }
+
+        function parseData(){
+
+           buildBar();
+           buildMap();
+         }
+
+
+        function buildBar() {
+          $('#bar').highcharts({
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Drunk Driving Fatalities'
+            },
+            subtitle: {
+                text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+            },
+            xAxis: {
+                type: 'category',
+                labels: {
+                    rotation: -45,
+                    style: {
+                        fontSize: '8px',
+                        fontFamily: 'Verdana, sans-serif'
+                      }
+                    }
+                  // title: {
+                  //     text: 'Level of Strictness for DUI Laws'
+                  // }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Fatalities per 100,000 people'
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+            },
+            series: [{
+                name: 'Population',
+                data: [
+                    ['Arizona', 45],
+                    ['Alaska', 31],
+                    ['Connecticut', 29],
+                    ['West Virginia', 59],
+                    ['Kansas', 42],
+                    ['Nebraska', 37],
+                    ['Utah', 17],
+                    ['Virginia', 32],
+                    ['Delaware', 47],
+                    ['Georgia', 38],
+                    ['Washington', 28],
+                    ['Tennessee', 53],
+                    ['Oklahoma', 58],
+                    ['Louisiana', 67],
+                    ['Iowa', 32],
+                    ['Oregon', 32],
+                    ['Colorado', 33],
+                    ['New Hampshire', 30],
+                    ['Texas', 51],
+                    ['South Carolina', 83],
+                    ['Florida', 44],
+                    ['Nevada', 38],
+                    ['Alabama', 66],
+                    ['Arkansas', 60],
+                    ['Massachusetts', 21],
+                    ['Illinois', 30],
+                    ['Hawaii', 35],
+                    ['North Carolina', 42],
+                    ['Missouri', 55],
+                    ['New York', 19],
+                    ['California', 27],
+                    ['Maine', 37],
+                    ['New Mexico', 60],
+                    ['Indiana', 34],
+                    ['Rhode Island', 29],
+                    ['Minnesota', 27],
+                    ['Michigan', 27],
+                    ['Mississippi', 86],
+                    ['Wyoming', 89],
+                    ['Idaho', 45],
+                    ['New Jersey', 21],
+                    ['Ohio', 32],
+                    ['Vermont', 34],
+                    ['Kentucky', 47],
+                    ['Wisconsin', 45],
+                    ['Montana', 93],
+                    ['Maryland', 29],
+                    ['North Dakota', 73],
+                    ['Pennsylvania', 37],
+                    ['Discrict of Columbia', 20],
+                    ['South Dakota', 65]
+                ],
+                dataLabels: {
+                    enabled: true,
+                    rotation: -90,
+                    color: '#FFFFFF',
+                    align: 'right',
+                  //  format: '{point.y:.1f}', // one decimal
+                    y: -10, // 10 pixels down from the top
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif'
+                    }
+                }
+            }]
+          });
+        };
+
+
+
+        //MAP
+                $function buildMap() {
+
+                $.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=us-population-density.json&callback=?', function (data) {
+
+                    // Make codes uppercase to match the map data
+                    $.each(data, function () {
+                        this.code = this.code.toUpperCase();
+                    });
+
+                    // Instanciate the map
+                    $('#usmap').highcharts('Map', {
+
+                        chart : {
+                            borderWidth : 1
+                        },
+
+                        title : {
+                            text : 'US population density (/km²)'
+                        },
+
+                        legend: {
+                            layout: 'horizontal',
+                            borderWidth: 0,
+                            backgroundColor: 'rgba(255,255,255,0.85)',
+                            floating: true,
+                            verticalAlign: 'top',
+                            y: 25
+                        },
+
+                        mapNavigation: {
+                            enabled: true
+                        },
+
+                        colorAxis: {
+                            min: 1,
+                            type: 'logarithmic',
+                            minColor: '#EEEEFF',
+                            maxColor: '#000022',
+                            stops: [
+                                [0, '#EFEFFF'],
+                                [0.67, '#4444FF'],
+                                [1, '#000022']
+                            ]
+                        },
+
+                        series : [{
+                            animation: {
+                                duration: 50
+                            },
+                            data : data,
+                            mapData: Highcharts.maps['countries/us/us-all'],
+                            joinBy: ['postal-code', 'code'],
+                            dataLabels: {
+                                enabled: true,
+                                color: 'white',
+                                format: '{point.code}'
+                            },
+                            name: 'Strictness per State',
+                            tooltip: {
+                                pointFormat: '{point.code}: {point.value} Fatalities'
+                            }
+                        }]
+                    });
+                });
+            };
+
+
+
+
+        </script>
+
+
+
+  <body>
+<html>

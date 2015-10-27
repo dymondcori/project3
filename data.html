@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>DATA</title>
+
+        <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+
+    </head>
+    <body>
+
+      <table id="example" class="display" cellspacing="0" width="100%">
+      <thead>
+                <tr>
+                    <th>State</th>
+                    <th>Population</th>
+                    <th>DUI Fatalities 2013</th>
+                    <th>Fatalities per 100,000 people</th>
+                    <th>Start date</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th>State</th>
+                    <th>Population</th>
+                    <th>DUI Fatalities 2013</th>
+                    <th>Fatalities per 100,000 people</th>
+                    <th>Start date</th>
+                    <th>Salary</th>
+                </tr>
+            </tfoot>
+
+            <tbody id="people">
+
+            </tbody>
+        </table>
+
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> <!--jquery always comes first -->
+      <script src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script> <!--add http to front-->
+
+      <script>
+
+      $(document).ready(function(){
+
+        $.ajax({
+          type: "GET",
+          url: "data.xml",
+          dataType: "xml",
+          success: function(xml){
+              parseData(xml);
+
+          }
+          // function ladData(){
+          //   //ajax call
+          //     //sucess pareData()
+          // }
+
+        })
+
+      function parseData(){
+        //for loop for each item in the data file
+            //$(xml)
+
+              //each time:
+                  // htmlTable += "<tr> <td>" + $(this).attr("name") + "</td>"
+                  // htmlTable += "<td>" + javaScriptData + "</td>"
+                  // htmlTable += "<td>" + javaScriptData + "</td>"
+                  // htmlTable += "<td>" + javaScriptData + "</td>"
+                  // htmlTable += "<td>" + javaScriptData + "</td>"
+                  // htmlTable += "<td>" + javaScriptData + "</td>"
+                  // htmlTable += "</tr>"
+
+              // $('#people').innerHTML(htmlTable);
+              // $('#example').DataTable();
+          }
+
+          $(document).ready(function() {
+              $('#example').DataTable( {
+                "ajax": 'table.txt'
+                //  "ajax": '../ajax/data/table.txt'
+              } );
+          } );
+
+      // $(document).ready(function() {
+      // $('#example').DataTable();
+      // } );
+      </script>
+
+    </body>
+<html>

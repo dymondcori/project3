@@ -1,0 +1,81 @@
+/*drunk driving*/
+/*http://www.cdc.gov/motorvehiclesafety/states/mv_total_deaths.html*/
+
+#topblue {
+  background-color: #105EAB;
+  height: 5px;
+}
+
+#logo {
+  width: 100px;
+}
+ #indexbox {
+   background-color: #105EAB;
+   color: white;
+   padding: 5px;
+   text-align: center;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+ }
+.topbar {
+  background-color: #3d316a;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  color: white;
+}
+h2 {
+  color: blue;
+  text-align: left;
+  padding: 2px;
+  font-size: 14pt;
+}
+
+.box {
+  text-align: left;
+
+}
+
+.sidetop {
+  background-color: #3d316a;
+  color: white;
+  padding: 5px;
+  border-bottom: white 1pt solid;
+}
+
+.sidenext {
+  background-color: #dad5eb;
+  padding: 5px;
+  border-bottom: white 1pt solid;
+
+}
+/* mouse over link */
+a:hover {
+    text-underline-position: below;
+    color: inherit;
+}
+a:link {
+    color: inherit;
+}
+
+
+form {
+                width:600px;
+                margin:20px auto;
+}
+.search {
+              /*  padding:8px 15px; */
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #3d316a;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #3d316a;;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
