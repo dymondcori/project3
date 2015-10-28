@@ -8,12 +8,13 @@ var State = [];
 var CriminalRank = [];
 var PreventionRank = [];
 var DeathRate = [];
-var ParentData = {};
+var ParentData = [];
+
 
 function loadData(){
   console.log("loading data");
   $.ajax({
-    url:'staterank.xml',
+    url:'info.xml',
     type: 'GET',
     dta: 'xml',
     success: parseData
@@ -26,11 +27,42 @@ function parseData(xml){
     CriminalRank.push(parseFloat($(this).find("CriminalRank").text()));
     PreventionRank.push(parseFloat($(this).find("PreventionRank").text()));
     DeathRate.push(parseFloat($(this).find("DeathRate").text()));
-   ParentData[State[index]] = DeathRate[index];
-  //ParentData[['State[index]'] , DeathRate[index]];
+    //ParentData[State[index]] = DeathRate[index];
+    //ParentData.push(State[index] + ", " + DeathRate[index]);
+
+
+    ParentData.push("[" + State[index] + "," + DeathRate[index] + "]");
+
+    //console.log(ParentData);
+
+//console.log(State[index]);
+//console.log(DeathRate[index]);
+
+
+// var theData = [];
+// var i = 0;
+// while (i < ParentData.length) {
+//
+// console.log("loop");
+//
+// theData[i] = "'" + State[index] + "'" + "," + DeathRate[index];
+
+//var Parent += "'" + State[index] + "'" + "," + DeathRate[index];
+
+// theData += "'" + State[index] + "'";
+//
+// console.log(theData);
+//
+// i++;
+// }
+
+
+//console.log(theData);
+
+  //ParentData[['State[index]' + "," + DeathRate[index]];
   //  Parent Data += [State, DeathRate]
   });
-  console.log(ParentData);
+
 
   console.log("parsing data");
 
@@ -50,6 +82,7 @@ $('#doublebar').highcharts({
     },
     xAxis: {
         categories: State
+
     },
     yAxis: {
         title: {
@@ -58,11 +91,16 @@ $('#doublebar').highcharts({
     },
     series: [{
         name: 'Criminal Penalty Rank',
-        data: CriminalRank
+        data: CriminalRank,
+        color: '#dad5eb'
+
     }, {
         name: 'DUI Prevention Rank',
-        data: PreventionRank
+        data: PreventionRank,
+        color: '#3d316a'
     }]
+
+
 });
 
 buildBar();
@@ -108,11 +146,65 @@ $('#bar').highcharts({
   },
   series: [{
       name: 'Death Rate',
-      data: [ParentData],
+      data:  [
+        ['South Dakota', 65],
+        ['Discrict of Columbia', 20],
+        ['Pennsylvania', 37],
+        ['North Dakota', 73],
+        ['Maryland', 29],
+        ['Montana', 93],
+        ['Wisconsin', 45],
+        ['Kentucky', 47],
+        ['Vermont', 34],
+        ['Ohio', 32],
+        ['New Jersey', 21],
+        ['Idaho', 45],
+        ['Wyoming', 89],
+        ['Mississippi', 86],
+        ['Michigan', 27],
+        ['Minnesota', 27],
+        ['Rhode Island', 29],
+        ['Indiana', 34],
+        ['New Mexico', 60],
+        ['Maine', 37],
+        ['California', 27],
+        ['New York', 19],
+        ['Missouri', 55],
+        ['North Carolina', 42],
+        ['Hawaii', 35],
+        ['Illinois', 30],
+        ['Massachusetts', 21],
+        ['Arkansas', 60],
+        ['Alabama', 66],
+        ['Nevada', 38],
+        ['Florida', 44],
+        ['South Carolina', 83],
+        ['Texas', 51],
+        ['New Hampshire', 30],
+        ['Colorado', 33],
+        ['Oregon', 32],
+        ['Iowa', 32],
+        ['Louisiana', 67],
+        ['Oklahoma', 58],
+        ['Tennessee', 53],
+        ['Washington', 28],
+        ['Georgia', 38],
+        ['Delaware', 47],
+        ['Virginia', 32],
+        ['Utah', 17],
+        ['Nebraska', 37],
+        ['Kansas', 42],
+        ['West Virginia', 59],
+        ['Connecticut', 29],
+        ['Alaska', 31],
+        ['Arizona', 45],
+      ],
+      color: '#3D316A',
+      //ParentData,
       dataLabels: {
           enabled: true,
           rotation: -90,
-          color: '#FFFFFF',
+          color: '#3D316A',
           align: 'right',
         //  format: '{point.y:.1f}', // one decimal
           y: -10, // 10 pixels down from the top
@@ -164,12 +256,12 @@ function buildMap () {
       colorAxis: {
           min: 1,
           max: 51,
-          type: 'logarithmic',
+          type: 'linear',
           minColor: '#dad5eb',
           maxColor: '#3D316A',
           stops: [
               [0, '#dad5eb'],
-              [.8, '#66589e'],
+              [.5, '#66589e'],
               [1, '#3D316A']
           ]
       },
@@ -186,10 +278,10 @@ function buildMap () {
               color: 'white',
               format: '{point.code}'
           },
-          //name: 'Rankining of Strickness',
-        //  tooltip: {
-          //    pointFormat: '{point.value}'
-        //  }
+          name: 'Rankining of Strickness',
+        tooltip: {
+          pointFormat: '{point.value}'
+        }
       }]
   });
 });

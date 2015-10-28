@@ -4,6 +4,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script> <!--add http to front-->
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="http://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+    <script src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
   <head>
 
   <body>
@@ -33,11 +46,11 @@
         </div>
 
         <div class= "col-md-12 topbar">
-                <h2> Injury Prevention and Control: Motor Vehicle Safety </h2>
+                <h2> <a href="#">Injury Prevention and Control</a> : <a href="#">Motor Vehicle Safety</a> </h2>
         </div>
 
-        <div class= "col-md-2 sidebar">
-              <div class="box">
+        <div class= "col-md-2 sidebar row">
+              <div class="box" id="hamburger">
                           <div class="sidetop"> <a href ="#">Motor Vehicle Safety</a></div>
                           <div class="sidenext"> <a href ="#">State Data and Information</a> </div>
                           <div class="sidenext"> <a href ="#">Cost Data and Prevention Policies</a></div>
@@ -58,15 +71,83 @@
 
         <div class= "col-md-10">
 
+                <div class="col-md-12">
+                  <div class="relativelocation">
+                    <a class="local" href="#">CDC</a> > <a class="local" href="#">Motor Vehicle Safety</a> > <a class="local" href="#">State Data and Information</a>
+                  </div>
+                  <h3> Drunk Driving in the United States </h3>
+                </div>
 
-              <h3> Drunk Driving in the United States </h3>
-              <div id="usmap" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
-              <div id="doublebar" style="width:100%; height:400px;"></div>
-              <div id="bar" style="width:100%; height:400px;"></div>
+                  <div class="col-md-4">
+
+                    <p class="emphasize"> Drunk Driving is a serious problem in the United States contributing to over 10,000 deaths a year.
+                    </p>
+                    <p>
+                      There are many factors that play into drinking and driving, such as age, gender, location, race
+                      and other demographics. Because states determine the laws and enforcement of the laws to keep drunk
+                      drivers off of roads, there is variation in DUI laws across the nation.
+                    </p>
+                    <p class="caption">
+                      The map shows the levels of strictness of DUI law for each state relative to eachother.
+                      <br>
+                      1= most lenient and 51= most strict.
+                    </p>
+
+                    <p>
+                      It is clear from the coloration on the map that states tend to be more strict in the South and Southwest
+                      and more lenient in the North East and North West. <p>
+
+                  </div>
+                  <div class = "col-md-8">
+                      <!-- <div id="usmap" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div> -->
+                      <div id="usmap" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
+
+                  </div>
+                <div class= "col-md-12">
+                  <p>  Laws vary from state to state on charges and punishment for first, second,
+                and third offenses. There are also different laws regarding the consequences for underage drinking and driving.
+                The ranking system for each state's level of strictness takes these factors into consideration, along with other
+                laws regarding drunk driving.
+                </p>
+                <p class="caption">
+                  The following graph aranges states in order of their strictness ranking from most strict to least strict. It then compares
+                  their ranking for such as strictness of criminal penalty laws and implementation of prevention laws.
+                </p>
+                  <div id="doublebar" style="width:100%; height:400px;"></div>
+                </div>
+
+                <div class = "col-md-12 purple">
+                        <div class="col-md-6">
+                          <h4> Party Connection </h4>
+                          <p>
+                            A states party alignment plays a crucial role in determining the strictness of their
+                            DUI laws. It is clear that the division of states between strictness of DUI laws
+                            is similarly divided by Republican and Democratic states.
+                          </p>
+                          <p>
+                            On the map, Republican states are labeled RED and the Democrat states are BLUE.
+                          </p>
+                          <p class="emphasize"> Republican states are generally more strict than Democratic states. </p>
+
+                      </div>
+                      <div class= "col-md-6">
+                        <figure>
+                          <figcaption> Republican vs Democrat States </figcaption>
+                          <img src = "images/redblue.png" alt="red and blue map" width="80%">
+                        <figure>
+                      </div>
+                </div>
+
+                <div class= "col-md-12">
+
+                  <div id="bar" style="width:100%; height:400px;"></div>
+                </div>
 
 
-        </div>
-            <div class="col-md-12">
+
+              </div>
+
+            <div class="col-md-12 container">
               <table id="tableinfo" class="display" cellspacing="0" width="100%">
                   <thead>
                       <tr>
@@ -98,11 +179,12 @@
 
     </div>
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="http://code.highcharts.com/highcharts.js"></script> <!--add http to front-->
+    <!-- <script src="http://code.highcharts.com/modules/exporting.js"></script>
     <script src="http://code.highcharts.com/maps/modules/data.js"></script>
     <script src="http://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
-    <script src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script> --> -->
 
 
 
@@ -110,7 +192,13 @@
   <!--  <script src="http://code.highcharts.com/maps/modules/data.js"></script> -->
 
 
-    <script src="js/main.js"></script>
+
+
+
+
+
+
+
 
 
 

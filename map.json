@@ -1,202 +1,206 @@
 [
     {
-        "value": 41,
-        "code": "nj"
+        "code": "AL",
+        "value": "29"
     },
     {
-        "value": 34,
-        "code": "ri"
+        "code": "AK",
+        "value": "50"
     },
     {
-        "value": 23,
-        "code": "ma"
+        "code": "AZ",
+        "value": "51"
     },
     {
-        "value": 3,
-        "code": "ct"
+        "code": "AR",
+        "value": "28"
     },
     {
-        "value": 47,
-        "code": "md"
+        "code": "CA",
+        "value": "21"
     },
     {
-        "value": 30,
-        "code": "ny"
+        "code": "CO",
+        "value": "34"
     },
     {
-        "value": 9,
-        "code": "de"
+        "code": "CT",
+        "value": "49"
     },
     {
-        "value": 21,
-        "code": "fl"
+        "code": "DE",
+        "value": "43"
     },
     {
-        "value": 41,
-        "code": "oh"
+        "code": "DC",
+        "value": "2"
     },
     {
-        "value": 49,
-        "code": "pa"
+        "code": "FL",
+        "value": "31"
     },
     {
-        "value": 26,
-        "code": "il"
+        "code": "GA",
+        "value": "41"
     },
     {
-        "value": 31,
-        "code": "ca"
+        "code": "HI",
+        "value": "23"
     },
     {
-        "value": 27,
-        "code": "hi"
+        "code": "ID",
+        "value": "12"
     },
     {
-        "value": 8,
-        "code": "va"
+        "code": "IL",
+        "value": "26"
     },
     {
-        "value": 37,
-        "code": "mi"
+        "code": "IN",
+        "value": "18"
     },
     {
-        "value": 34,
-        "code": "in"
+        "code": "IA",
+        "value": "37"
     },
     {
-        "value": 28,
-        "code": "nc"
+        "code": "KS",
+        "value": "47"
     },
     {
-        "value": 10,
-        "code": "ga"
+        "code": "KY",
+        "value": "8"
     },
     {
-        "value": 12,
-        "code": "tn"
+        "code": "LA",
+        "value": "38"
     },
     {
-        "value": 18,
-        "code": "nh"
+        "code": "ME",
+        "value": "20"
     },
     {
-        "value": 20,
-        "code": "sc"
+        "code": "MD",
+        "value": "5"
     },
     {
-        "value": 14,
-        "code": "la"
+        "code": "MA",
+        "value": "27"
     },
     {
-        "value": 44,
-        "code": "ky"
+        "code": "MI",
+        "value": "15"
     },
     {
-        "value": 45,
-        "code": "wi"
+        "code": "MN",
+        "value": "16"
     },
     {
-        "value": 11,
-        "code": "wa"
+        "code": "MS",
+        "value": "14"
     },
     {
-        "value": 23,
-        "code": "al"
+        "code": "MO",
+        "value": "23"
     },
     {
-        "value": 29,
-        "code": "mo"
+        "code": "MT",
+        "value": "6"
     },
     {
-        "value": 18,
-        "code": "tx"
+        "code": "NE",
+        "value": "46"
     },
     {
-        "value": 4,
-        "code": "wv"
+        "code": "NV",
+        "value": "30"
     },
     {
-        "value": 43,
-        "code": "vt"
+        "code": "NH",
+        "value": "34"
     },
     {
-        "value": 36,
-        "code": "mn"
+        "code": "NJ",
+        "value": "11"
     },
     {
-        "value": 38,
-        "code": "ms"
+        "code": "NM",
+        "value": "18"
     },
     {
-        "value": 15,
-        "code": "ia"
+        "code": "NY",
+        "value": "22"
     },
     {
-        "value": 23,
-        "code": "ar"
+        "code": "NC",
+        "value": "23"
     },
     {
-        "value": 13,
-        "code": "ok"
+        "code": "ND",
+        "value": "4"
     },
     {
-        "value": 1,
-        "code": "az"
+        "code": "OH",
+        "value": "10"
     },
     {
-        "value": 17,
-        "code": "co"
+        "code": "OK",
+        "value": "39"
     },
     {
-        "value": 32,
-        "code": "me"
+        "code": "OR",
+        "value": "36"
     },
     {
-        "value": 16,
-        "code": "or"
+        "code": "PA",
+        "value": "3"
     },
     {
-        "value": 5,
-        "code": "ks"
+        "code": "RI",
+        "value": "17"
     },
     {
-        "value": 7,
-        "code": "ut"
+        "code": "SC",
+        "value": "32"
     },
     {
-        "value": 6,
-        "code": "ne"
+        "code": "SD",
+        "value": "1"
     },
     {
-        "value": 22,
-        "code": "nv"
+        "code": "TN",
+        "value": "40"
     },
     {
-        "value": 40,
-        "code": "id"
+        "code": "TX",
+        "value": "33"
     },
     {
-        "value": 33,
-        "code": "nm"
+        "code": "UT",
+        "value": "45"
     },
     {
-        "value": 51,
-        "code": "sd"
+        "code": "VT",
+        "value": "9"
     },
     {
-        "value": 48,
-        "code": "nd"
+        "code": "VA",
+        "value": "44"
     },
     {
-        "value": 46,
-        "code": "mt"
+        "code": "WA",
+        "value": "41"
     },
     {
-        "value": 39,
-        "code": "wy"
+        "code": "WV",
+        "value": "48"
     },
     {
-        "value": 2,
-        "code": "ak"
+        "code": "WI",
+        "value": "7"
+    },
+    {
+        "code": "WY",
+        "value": "13"
     }
 ]

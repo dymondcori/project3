@@ -23,6 +23,15 @@
   margin-bottom: 10px;
   color: white;
 }
+.emphasize {
+  font-weight: bold;
+  font-size: 12pt;
+}
+.caption {
+  color: #3D316A;
+  font-weight: bold;
+
+}
 h2 {
   color: blue;
   text-align: left;
@@ -30,15 +39,23 @@ h2 {
   font-size: 14pt;
 }
 
+h3 {
+  font-size: 30pt;
+}
+
 .box {
   text-align: left;
 
 }
-
+.sidebar {
+  padding: 0;
+}
 .sidetop {
+  width: 100%;
   background-color: #3d316a;
   color: white;
   padding: 5px;
+  margin-left: 0;
   border-bottom: white 1pt solid;
 }
 
@@ -48,13 +65,33 @@ h2 {
   border-bottom: white 1pt solid;
 
 }
-/* mouse over link */
-a:hover {
-    text-underline-position: below;
-    color: inherit;
+
+.purple {
+  background-color: #dad5eb;
+  padding: 5px;
+  padding-bottom: 5px;
+
 }
+figcaption {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  background color: #3d316a;
+
+}
+figure {
+  padding: 5px;
+  text-align: center;
+}
+/* mouse over link */
 a:link {
-    color: inherit;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 
@@ -71,11 +108,15 @@ form {
                 position:relative;
                 padding:6px 15px;
                 left:-8px;
-                border:2px solid #3d316a;;
+                border:2px solid #3d316a;
                 background-color:#207cca;
                 color:#fafafa;
 }
 .button:hover  {
                 background-color:#fafafa;
                 color:#207cca;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .box { display: none; }  /* show it on small screens */
 }
