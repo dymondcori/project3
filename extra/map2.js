@@ -1,40 +1,44 @@
-  var State = [];
-  var Population = [];
-  var Rank = [];
-  var CriminalRank = [];
-  var PreventionRank = [];
-  var DeathRate = [];
-  var ParentData = {};
-  var mapChart = " ";
+$(document).ready(function() {
+  $("#message").text("DOM Loaded and Ready"); //user based message
+  loadData();
+
+});
+
 
   function loadData(){
-    console.log("loading data");
-    $.ajax({
-      url:'staterank.xml',
-      type: 'GET',
-      dta: 'xml',
-      success: parseData
-    });
-  } // important! using ajax to call xml
+    console.log("loading data...");
+          $.ajax({
+            url:'staterank.xml',
+            type: 'GET',
+            dta: 'xml',
+            success: parseData
+          });
+        } // important! using ajax to call xml
 
   function parseData(xml){
+    $("#message").text("Parsing through the data...");
+    var mapChart = " ";
+
     $(xml).find("State").each(function(index){
 
 
-
-      mapChart += '<tr><td>' + $(this).find("Rank").text() + '</td>'
+      mapChart += '<tr><td>' + $(this).find('Rank').text() + '</td>'
       mapChart += '<td>' + $(this).attr('name') + '</td>'
-      mapChart += '<td>' + $(this).attr('Deaths') + '</td></tr>'
+      mapChart += '<td>' + $(this).find('DeathRate').text() + '</td></tr>'
+
+      })
 
       $("#data").append(mapChart);
 
-    });
-    console.log(ParentData);
 
-    console.log("parsing data");
+      console.log("parsing data");
+      console.log(mapChart);
+
+      buildMap();
+    };
 
 
-    $(function () {
+    function buildMap() {
     // Load the data from the HTML table and tag it with an upper case name used for joining
     var data = [],
         // Get the map data
@@ -131,4 +135,4 @@
             color: 'silver'
         }]
     });
-});
+  };
