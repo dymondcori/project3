@@ -309,6 +309,77 @@ function buildMap () {
       }]
   });
 });
+buildDeathMap();
+//buildTable();
+};
+
+function buildDeathMap () {
+$.getJSON('data/deathmap.json', function (data) {
+
+//$.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=us-population-density.json&callback=?', function (data) {
+
+
+// Make codes uppercase to match the map data
+$.each(data, function () {
+this.code = this.code.toUpperCase();
+});
+
+// Instanciate the map
+$('#deathmap').highcharts('Map', {
+
+chart : {
+//  borderWidth : 1
+},
+
+title : {
+text : 'DUI Related Fatalities per State (per 100,000 people)'
+},
+
+legend: {
+layout: 'horizontal',
+borderWidth: 0,
+backgroundColor: 'rgba(255,255,255,0.85)',
+floating: true,
+verticalAlign: 'top',
+y: 25
+},
+
+mapNavigation: {
+//enabled: true
+},
+
+colorAxis: {
+min: 1,
+max: 100,
+type: 'linear',
+minColor: '#dad5eb',
+maxColor: '#3D316A',
+stops: [
+    [0, '#dad5eb'],
+    [.5, '#66589e'],
+    [1, '#3D316A']
+]
+},
+
+series : [{
+animation: {
+  //  duration: 1000
+},
+data : data,
+mapData: Highcharts.maps['countries/us/us-all'],
+joinBy: ['postal-code', 'code'],
+dataLabels: {
+    enabled: true,
+    color: 'white',
+    format: '{point.code}'
+},
+name: 'DUI Fatalities',
+tooltip: {
+pointFormat: '{point.value} deaths per 100,000 people'
+}
+}]
+});
+});
 buildTable();
 };
 
