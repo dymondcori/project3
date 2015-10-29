@@ -32,11 +32,14 @@
   font-weight: bold;
 
 }
+h1 {
+  font-size:50%;
+}
 h2 {
   color: blue;
   text-align: left;
   padding: 2px;
-  font-size: 14pt;
+  font-size: 40%;
 }
 
 h3 {
@@ -130,6 +133,7 @@ form {
                 color:#207cca;
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  .box { display: none; }  /* show it on small screens */
+@media (max-width: 50em) {
+.box {
+display: none; }
 }

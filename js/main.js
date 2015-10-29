@@ -261,7 +261,7 @@ function buildMap () {
       },
 
       title : {
-          text : 'Strictness of State Dui Laws'
+          text : 'Strictness of State DUI Laws'
       },
 
       legend: {
@@ -302,7 +302,7 @@ function buildMap () {
               color: 'white',
               format: '{point.code}'
           },
-          name: 'Rankining of Strickness',
+          name: 'Ranking of Strictness',
         tooltip: {
           pointFormat: '{point.value}'
         }
