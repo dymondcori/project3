@@ -14,7 +14,7 @@ var ParentData = [];
 function loadData(){
   console.log("loading data");
   $.ajax({
-    url:'info.xml',
+    url:'data/info.xml',
     type: 'GET',
     dta: 'xml',
     success: parseData
@@ -81,9 +81,19 @@ $('#doublebar').highcharts({
         text: 'State Criminal Rank and Prevention Rank'
     },
     xAxis: {
-        categories: State
-
+        categories: State,
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '8px',
+                fontFamily: 'Verdana, sans-serif'
+              }
+            }
+          // title: {
+          //     text: 'Level of Strictness for DUI Laws'
+          // }
     },
+
     yAxis: {
         title: {
             text: 'Rank'
@@ -98,7 +108,21 @@ $('#doublebar').highcharts({
         name: 'DUI Prevention Rank',
         data: PreventionRank,
         color: '#3d316a'
-    }]
+    }
+  ]
+    // dataLabels: {
+    //     //enabled: true,
+    //     rotation: -90,
+    //     color: '#3D316A',
+    //     align: 'right',
+    //     y: -10, // 10 pixels down from the top
+    //     style: {
+    //         fontSize: '13px',
+    //         fontFamily: 'Verdana, sans-serif'
+    //     }
+    //   }
+
+
 
 
 });
@@ -219,7 +243,7 @@ buildMap();
 };
 
 function buildMap () {
-  $.getJSON('map.json', function (data) {
+  $.getJSON('data/map.json', function (data) {
 
 //$.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=us-population-density.json&callback=?', function (data) {
 
@@ -293,7 +317,7 @@ buildTable();
 
 function buildTable() {
   $('#tableinfo').DataTable( {
-      "ajax": "table.txt"
+      "ajax": "data/table.txt"
   } );
 };
 

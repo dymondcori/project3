@@ -70,6 +70,7 @@ h3 {
   background-color: #dad5eb;
   padding: 5px;
   padding-bottom: 5px;
+  margin-bottom: 10px;
 
 }
 figcaption {
@@ -84,9 +85,13 @@ figure {
   padding: 5px;
   text-align: center;
 }
+.intext {
+    color: blue;
+}
+
 /* mouse over link */
 a:link {
-    color: black;
+    color: inherit;
 }
 
 a:hover {
@@ -94,6 +99,14 @@ a:hover {
     color: black;
 }
 
+a:visited {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.local {
+  text-decoration: underline;
+}
 
 form {
                 width:600px;
